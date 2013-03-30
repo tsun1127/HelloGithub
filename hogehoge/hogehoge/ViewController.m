@@ -29,7 +29,7 @@
 - (IBAction)hello:(id)sender
 {
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil
-                                                    message:@"Hello!!"
+                                                    message:@"Hello,Github!!"
                                                    delegate:nil
                                           cancelButtonTitle:nil
                                           otherButtonTitles:@"OK", nil];
