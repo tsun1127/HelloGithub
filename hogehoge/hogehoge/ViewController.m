@@ -28,8 +28,9 @@
 
 - (IBAction)hello:(id)sender
 {
+    NSLog(@"hoge");
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil
-                                                    message:@"Welcome. Hello,Github!!"
+                                                    message:@"o,Github!!"
                                                    delegate:nil
                                           cancelButtonTitle:nil
                                           otherButtonTitles:@"OK", nil];
